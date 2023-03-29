@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarberShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Montserrat&family=Playfair+Display:wght@700;900&family=Raleway:wght@800&display=swap"
+        rel="stylesheet">
+    <link href="
+        https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
+        " rel="stylesheet">
+    <link rel="stylesheet" href="./style.css/style.css">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container point">
+            <nav class="header-nav">
+                <a href="#" class="header-logo">
+                    <svg class="logo-svg" width="45" height="45">
+                        <use href="./img/svg/sprite.svg#icon-logo-header"></use>
+                    </svg>
+                    <p class="header-logoname">Cool Barber</p>
+                </a>
+                <ul class="header-list">
+                    <li class="header-links">
+                        <a href="#" class="header-list-link">About Us</a>
+                    </li>
+                    <li class="header-links">
+                        <a href="#" class="header-list-link">Our masters</a>
+                    </li>
+                    <li class="header-links">
+                        <a href="#" class="header-list-link">Portfolio</a>
+                    </li>
+                    <li class="header-links">
+                        <a href="#" class="header-list-link">Testimonials</a>
+                    </li>
+                    <li class="header-links">
+                        <a href="#" class="header-list-link">Contacts</a>
+                    </li>
+                </ul>
+                <button class="burger js-open-menu" type="button">
+                    <svg class="burger-svg" width="32" height="22">
+                        <use href="./img/svg/sprite.svg#icon-menu-burger-mobile"></use>
+                    </svg>
+                </button>
+            </nav>
+
+            <!-- <adress class="header-adress">
+                <ul class="header-adress-list">
+                    <li class="header-adress-link">
+                        <a href="#" class="header-map">
+                            <p class="header-map-text">302 W 50th St, NY, NY 10019</p>
+                            <svg class="map-svg" height="36" width="36">
+                                <use href="./img/svg/sprite.svg#icon-map-header"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header-adress-link">
+                        <a href="tel:+88000000000" class="header-contacts">8 (800) 000-00-00</a>
+                        <p class="header-worktime">Daily from 9 to 20</p>
+                        <a href="" class="header-tel-svg">
+                            <svg class="telsvg" height="36" width="36">
+                                <use href="./img/svg/sprite.svg#icon-phone-header"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </adress> -->
+        </div>
+
+        <!-- MOBILE MODAL WINDOW -->
+
+        <div class="modal-window container js-menu-container">
+            <div class="modal-container">
+                <button class="modal-close-button js-close-menu">
+                    <svg class="modal-close-svg" height="10" width="10">
+                        <use href="./img/svg/sprite.svg#icon-button-crest"></use>
+                    </svg>
+                </button>
+                <ul class="modal-item point">
+                    <li class="modal-lists">
+                        <a href="#" class="modal-links point">About Us</a>
+                    </li>
+                    <li class="modal-lists">
+                        <a href="#" class="modal-links point">Our masters</a>
+                    </li>
+                    <li class="modal-lists">
+                        <a href="#" class="modal-links point">Portfolio</a>
+                    </li>
+                    <li class="modal-lists">
+                        <a href="#" class="modal-links point">Testimonials</a>
+                    </li>
+                    <li class="modal-lists">
+                        <a href="#" class="modal-links point">Contacts</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="modal-contacts">
+                <ul class="modal-contacts-item point">
+                    <li class="modal-contacts-lists">
+                        <a href="tel:+88000000000" class="modal-contacts-links point">8 (800) 000-00-00</a>
+                    </li>
+                    <li class="modal-contacts-lists">
+                        <a href="https://www.google.com.ua/maps/place/302+W+50th+St,+New+York,+NY+10019,"
+                            class="modal-contacts-links point">
+                            302 W 50th St, NY, NY 10019
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="modal-social-media point">
+                    <li class="modal-social-media-lists">
+                        <a href="https://www.facebook.com/" class="modal-social-media-links">
+                            <svg class="modal-social-media-svg" height="24" width="24">
+                                <use href="./img/svg/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="modal-social-media-lists">
+                        <a href="https://www.instagram.com/" class="modal-social-media-links">
+                            <svg class="modal-social-media-svg" height="24" width="24">
+                                <use href="./img/svg/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="modal-social-media-lists">
+                        <a href="https://twitter.com/" class="modal-social-media-links">
+                            <svg class="modal-social-media-svg" height="24" width="24">
+                                <use href="./img/svg/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="modal-social-media-lists">
+                        <a href="https://gmail.com/" class="modal-social-media-links">
+                            <svg class="modal-social-media-svg border" height="24" width="24">
+                                <use href="./img/svg/sprite.svg#icon-gmail"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+    <script src="./js/mobile-menu.js"></script>
+</body>
+
+</html>
