@@ -199,6 +199,7 @@ body {
 .header {
     padding-top: 18px;
     padding-bottom: 18px;
+    background-color: var(--main-secondary-color);
 }
 
 .container {
@@ -347,6 +348,34 @@ body {
 
 /* /hero-section */
 
+/* benefit-section */
+.benefit-section {}
+
+.benefit-container {
+    padding: 20px;
+}
+
+.container {}
+
+.benefit-item {}
+
+.point {}
+
+.benefit-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.benefit-svg {}
+
+.benefit-title {}
+
+.benefit-text {}
+
+/* /benefit-section */
+
 /* ---------------/MOBILE-VERSION--------------- */
 
 /* ---------------TABLET-VERSION--------------- */
@@ -428,6 +457,13 @@ body {
 
 /* ---------------/DESCTOP-VERSION--------------- */
 @media screen and (min-width: 1200px) {
+
+    .hero-section {
+        background-image: linear-gradient(to bottom,
+                #3B322D 75%,
+                #251D1A 25%);
+    }
+
     .container {
         display: flex;
         width: 1180px;
