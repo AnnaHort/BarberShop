@@ -341,7 +341,7 @@ body {
   border: none;
   color: var(--white-color);
   padding: 9px 26px;
-  border-radius: 5%;
+  border-radius: 5px;
 }
 
 .hero-secondary-button:hover,
@@ -360,16 +360,15 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
-
 }
 
 .container {
 }
 
 .benefit-item {
-display: flex;
-flex-direction: column;
-gap: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
 }
 
 .point {
@@ -395,29 +394,9 @@ gap: 22px;
 
 /* ABOUT-SECTION */
 .about-section {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  background-color: var(--main-secondary-color);
+display: none;
 }
-.about-title {
-}
-.about-text {
-  text-align: center;
-}
-.about-list {
-  list-style: none;
-}
-.about-us-picture-container{
-  display: flex;
-  flex-direction: column;
-}
-.about-list-item {
-}
-.about-button {
-}
+
 /* /ABOUT-SECTION */
 
 /* ---------------/MOBILE-VERSION--------------- */
@@ -687,5 +666,78 @@ gap: 22px;
   .benefit-title {
   }
   .benefit-text {
+  }
+
+  /* ABOUT-US */
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--main-color);
+    padding: 120px 0;
+  }
+  .about-title {
+    margin-bottom: 12px;
+    color: var(--white-color);
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .about-text {
+    text-align: center;
+    margin-bottom: 60px;
+    color: var(--text-color);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    width: 580px;
+  }
+  .about-list {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 60px;
+  }
+  .about-us-picture-container {
+    gap: 18px;
+  }
+  .about-list-item {
+    display: flex;
+    gap: 8px;
+  }
+  .picture-block-about-us {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-us-btn-container {
+    display: flex;
+    gap: 30px;
+  }
+  .about-button-masters {
+    background-color: var(--svg-color);
+    padding: 25px 51px;
+    color: var(--text-color);
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 20px;
+    border: none;
+    font-weight: 700;
+    line-height: 1.52;
+  }
+  .about-button-inst {
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid #efe7e2;
+    color: var(--text-color);
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5; /* 21px */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
   }
 }

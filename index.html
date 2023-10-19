@@ -190,7 +190,7 @@
           <button class="hero-secondary-button">Book now</button>
         </div>
       </section>
-      <!-- HERO-SECTION -->
+
 
       <!-- BENEFIT-SECTION -->
       <section class="benefit-section">
@@ -226,17 +226,17 @@
           </ul>
         </div>
       </section>
-      <!-- /BENEFIT-SECTION -->
 
-      <!-- About US-SECTION -->
+
+      <!-- ABOUT US-SECTION -->
       <section class="about-section">
         <h2 class="about-title">About Us</h2>
-        <p class="about-text">
+        <p class="about-text container">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
         </p>
-        <ul class="about-list">
+        <ul class="about-list container">
           <div class="about-us-picture-container">
             <li class="about-list-item">
               <img
@@ -249,52 +249,58 @@
                 alt="work proces"
               />
             </li>
-            <li class="about-list-item">
-              <img
-                srcset="
-                  ./img/img/about-us/about-us-1x/master-2-1x.jpg 1x,
-                  ./img/img/about-us/about-us-2x/master-2-2x.jpg 2x
-                "
-                sizes="100vw"
-                src="./img/img/about-us/about-us-1x/master-2-1x.jpg"
-                alt="work proces"
-              />
-            </li>
-            <li class="about-list-item">
-              <img
-                srcset="
-                  ./img/img/about-us/about-us-1x/master-3-1x.jpg 1x,
-                  ./img/img/about-us/about-us-2x/master-3-2x.jpg 2x
-                "
-                sizes="100vw"
-                src="./img/img/about-us/about-us-1x/master-3-1x.jpg"
-                alt="work proces"
-              />
-            </li>
+            <span class="picture-block-about-us">
+              <li class="about-list-item">
+                <img
+                  srcset="
+                    ./img/img/about-us/about-us-1x/master-2-1x.jpg 1x,
+                    ./img/img/about-us/about-us-2x/master-2-2x.jpg 2x
+                  "
+                  sizes="100vw"
+                  src="./img/img/about-us/about-us-1x/master-2-1x.jpg"
+                  alt="work proces"
+                />
+              </li>
+              <li class="about-list-item">
+                <img
+                  srcset="
+                    ./img/img/about-us/about-us-1x/master-3-1x.jpg 1x,
+                    ./img/img/about-us/about-us-2x/master-3-2x.jpg 2x
+                  "
+                  sizes="100vw"
+                  src="./img/img/about-us/about-us-1x/master-3-1x.jpg"
+                  alt="work proces"
+                />
+              </li>
+            </span>
           </div>
           <div class="about-us-picture-container">
-            <li class="about-list-item">
-              <img
-                srcset="
-                  ./img/img/about-us/about-us-1x/master-4-1x.jpg 1x,
-                  ./img/img/about-us/about-us-2x/master-4-2x.jpg 2x
-                "
-                sizes="100vw"
-                src="./img/img/about-us/about-us-1x/master-4-1x.jpg"
-                alt="work proces"
-              />
-            </li>
-            <li class="about-list-item">
-              <img
-                srcset="
-                  ./img/img/about-us/about-us-1x/master-5-1x.jpg 1x,
-                  ./img/img/about-us/about-us-2x/master-5-2x.jpg 2x
-                "
-                sizes="100vw"
-                src="./img/img/about-us/about-us-1x/master-5-1x.jpg"
-                alt="work proces"
-              />
-            </li>
+            <span class="picture-block-about-us">
+              <li class="about-list-item">
+                <img
+                  srcset="
+                    ./img/img/about-us/about-us-1x/master-4-1x.jpg 1x,
+                    ./img/img/about-us/about-us-2x/master-4-2x.jpg 2x
+                  "
+                  sizes="100vw"
+                  src="./img/img/about-us/about-us-1x/master-4-1x.jpg"
+                  alt="work proces"
+                />
+              </li>
+
+              <li class="about-list-item">
+                <img
+                  srcset="
+                    ./img/img/about-us/about-us-1x/master-5-1x.jpg 1x,
+                    ./img/img/about-us/about-us-2x/master-5-2x.jpg 2x
+                  "
+                  sizes="100vw"
+                  src="./img/img/about-us/about-us-1x/master-5-1x.jpg"
+                  alt="work proces"
+                />
+              </li>
+            </span>
+
             <li class="about-list-item">
               <img
                 srcset="
@@ -308,12 +314,15 @@
             </li>
           </div>
         </ul>
-        <button class="about-button" type="button">
-          Our masters and their masterpieces
-        </button>
-        <button class="about-button" type="button">Our Instagram</button>
+        <div class="about-us-btn-container">
+          <button class="about-button-masters" type="button">
+            Our masters and their masterpieces
+          </button>
+          <button class="about-button-inst" type="button">Our Instagram</button>
+        </div>
       </section>
-      <!-- /About US -->
+
+
     </main>
     <footer></footer>
     <script
