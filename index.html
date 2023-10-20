@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarberShop</title>
+  
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +18,9 @@
         "
       rel="stylesheet"
     />
-
+<!-- swiper -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<!--  -->
     <link rel="stylesheet" href="./style.css/style.css" />
 
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
@@ -330,7 +333,62 @@
           quam tempora delectus optio?
         </p>
 
-
+        <!-- swiper -->
+        <div class="swiper">
+          <ul class="testimonials-list swiper-wrapper">
+            <li class="testimonials-list-item swiper-slide">
+              <img
+                class="testimonials-img"
+                srcset="
+                  /img/img/testimonials/testimonials-1x/master-1-1x.jpg 1x,
+                  /img/img/testimonials/testimonials-2x/master-1-2x.jpg 2x
+                "
+                sizes="100vw"
+                src="/img/img/testimonials/testimonials-1x/master-1-1x.jpg"
+                alt="testimonials-master-card"
+              />
+            </li>
+            <li class="testimonials-list-item swiper-slide">
+              <img
+                class="testimonials-img"
+                srcset="
+                  /img/img/testimonials/testimonials-1x/master-2-1x.jpg 1x,
+                  /img/img/testimonials/testimonials-2x/master-2-2x.jpg 2x
+                "
+                sizes="100vw"
+                src="/img/img/testimonials/testimonials-1x/master-2-1x.jpg"
+                alt="testimonials-master-card"
+              />
+            </li>
+            <li class="testimonials-list-item swiper-slide">
+              <img
+                class="testimonials-img"
+                srcset="
+                  /img/img/testimonials/testimonials-1x/master-3-1x.jpg 1x,
+                  /img/img/testimonials/testimonials-2x/master-3-2x.jpg 2x
+                "
+                sizes="100vw"
+                src="/img/img/testimonials/testimonials-1x/master-3-1x.jpg"
+                alt="testimonials-master-card"
+              />
+            </li>
+            <li class="testimonials-list-item swiper-slide">
+              <img
+                class="testimonials-img"
+                srcset="
+                  /img/img/testimonials/testimonials-1x/master-4-1x.jpg 1x,
+                  /img/img/testimonials/testimonials-2x/master-4-2x.jpg 2x
+                "
+                sizes="100vw"
+                src="/img/img/testimonials/testimonials-1x/master-4-1x.jpg"
+                alt="testimonials-master-card"
+              />
+            </li>
+          </ul>
+          <!-- <div class="swiper-pagination"></div> -->
+        
+        </div>
+        <!--  -->
       </section>
     </main>
     <footer></footer>
@@ -343,5 +401,9 @@
     <script src="./js/mobile-menu.js"></script>
     <script src="./js/test.js"></script>
 
+    <!-- swiper -->
+    <script type="module" src="./js/swiper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!--  -->
   </body>
 </html>

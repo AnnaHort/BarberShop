@@ -55,11 +55,7 @@ body {
   list-style: none;
 }
 
-/* swiper */
-.swiper{
-  width: 500px;
-  height: 600px;
-}
+
 
 /* ---------------/general rules--------------- */
 
@@ -403,7 +399,30 @@ body {
 display: none;
 }
 
-/* /ABOUT-SECTION */
+/* TESTIMONIALS-SECTION */
+
+/* SWIPER */
+.swiper {
+  /* position: relative; */
+  width: 100vw;
+  height:320px;
+}
+.testimonials-list {
+}
+.swiper-wrapper {
+}
+.testimonials-list-item {
+
+}
+.swiper-slide {
+}
+.testimonials-img {
+  margin-right: auto;
+  margin-left: auto;
+}
+.swiper-pagination {
+}
+
 
 /* ---------------/MOBILE-VERSION--------------- */
 
