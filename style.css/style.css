@@ -55,6 +55,12 @@ body {
   list-style: none;
 }
 
+/* swiper */
+.swiper{
+  width: 500px;
+  height: 600px;
+}
+
 /* ---------------/general rules--------------- */
 
 /* -------------MOBILE-MODAL-WINDOW------------- */
@@ -723,7 +729,7 @@ display: none;
     text-align: center;
     font-family: Playfair Display;
     font-size: 20px;
-    border: none;
+    border: 1px solid transparent;
     font-weight: 700;
     line-height: 1.52;
   }
