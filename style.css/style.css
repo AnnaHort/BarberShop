@@ -55,8 +55,6 @@ body {
   list-style: none;
 }
 
-
-
 /* ---------------/general rules--------------- */
 
 /* -------------MOBILE-MODAL-WINDOW------------- */
@@ -361,7 +359,7 @@ body {
 .benefit-container {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 60px 20px 60px 20px;
 }
 
 .container {
@@ -396,33 +394,79 @@ body {
 
 /* ABOUT-SECTION */
 .about-section {
-display: none;
+  display: none;
 }
 
 /* TESTIMONIALS-SECTION */
+.testimonials-section {
+  padding-bottom: 50px;
+  background: linear-gradient(to bottom, #3b322d, #251d1a);
+}
+.testimonials-title {
+  text-align: center;
+  color: var(--white-color);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.testimonials-title-text {
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6; /* 24px */
+}
 
 /* SWIPER */
 .swiper {
   /* position: relative; */
-  width: 100vw;
-  height:320px;
+  width: auto;
 }
 .testimonials-list {
 }
 .swiper-wrapper {
 }
 .testimonials-list-item {
-
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 .swiper-slide {
 }
 .testimonials-img {
-  margin-right: auto;
-  margin-left: auto;
+}
+.testimonials-master-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 .swiper-pagination {
 }
 
+.testimonials-master-name {
+  color: var(--white-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.testimonials-master-info {
+  color: var(--white-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.testimonials-master-info-more {
+  color: var(--svg-color);
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
+}
 
 /* ---------------/MOBILE-VERSION--------------- */
 
@@ -727,6 +771,8 @@ display: none;
     margin-bottom: 60px;
   }
   .about-us-picture-container {
+    display: flex;
+    flex-direction: column;
     gap: 18px;
   }
   .about-list-item {
