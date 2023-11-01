@@ -1,13 +1,10 @@
-const findShort = (s) => {
-
-  let arr = []
-
-  const words = s.split(" ");
-  
-  words.forEach((word) => {
-    const wordLength = word.length;
-    arr.push(wordLength);
-  });
-  return(console.log(Math.min(...arr)));
+const XO = (str) => {
+  if (str.match(/o/gi) === null && str.match(/x/gi) === null) {
+    return true;
+  }
+  return str.match(/o/gi).length === str.match(/x/gi).length;
 };
-findShort("Hello Anna! How are you?");
+
+
+
+XO("oOxx");
