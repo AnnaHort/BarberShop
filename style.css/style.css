@@ -11,6 +11,12 @@
 }
 
 /* ---------------general rules--------------- */
+.hello-world {
+text-align: center;
+  color:var(--svg-color);
+  font-size: 101px;
+}
+
 h1,
 h2,
 h3,
