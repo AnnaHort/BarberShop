@@ -468,6 +468,96 @@ body {
   line-height: 1.35;
 }
 
+/* Our Price Section */
+
+.our-price-section {
+  padding-bottom: 50px;
+  background: linear-gradient(to bottom, #3b322d, #251d1a);
+}
+
+.our-price-title {
+  text-align: center;
+  color: var(--white-color);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.25;
+  padding-top: 60px;
+  margin-bottom: 24px;
+}
+
+.our-price-text {
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 60px;
+  /* 24px */
+}
+
+.our-price-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.our-price-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-price-li {
+  display: flex;
+  flex-direction: column;
+}
+.our-price-img {
+  margin-bottom: 20px;
+}
+.our-price-name {
+  margin-bottom: 20px;
+}
+.our-price-table {
+}
+
+.our-price-list {
+  border-right: 1px solid #b7aaa2;
+  padding-right: 15px;
+}
+
+/* our-price-section */
+.our-price-title {
+  padding-top: 120px;
+}
+
+.our-price-div {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.our-price-span {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.our-price-item {
+  color: var(--text-secondary-color);
+}
+.span-color {
+  color: var(--white-color);
+  weight: 400;
+  size: 14px;
+  height: 24.5px;
+}
+
+/* Our Price Section */
+
 /* ---------------/MOBILE-VERSION--------------- */
 
 /* ---------------TABLET-VERSION--------------- */
