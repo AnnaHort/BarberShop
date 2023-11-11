@@ -1,9 +1,16 @@
-// чи являється строка яка містить тільки букви - ізограмою (слово в якому немає букв які повторюються) (пуста строка = ізограма)
+// const toUpperCase = string => {
+//   const words = string.split(" ");
+//   const capitalizedWords = words.map((word) => {
+//     const firstLetter = word[0].toUpperCase();
+//     return firstLetter + word.slice(1);
+//   });
+//   return capitalizedWords.join(" ");
+// };
 
-const isIsogram = (str) => {
-console.log(str);
+const toJadenCase = (string) => {
+    return string.toJadenCase();
+  }
 
-}
+toJadenCase("hello anna! How are you?");
 
-isIsogram("Dermatoglyphics");
-// isIsogram(moose);
+
