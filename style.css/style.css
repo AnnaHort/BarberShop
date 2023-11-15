@@ -328,6 +328,9 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   color: var(--svg-color);
+  box-shadow: -1px -1px 46px 11px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: -1px -1px 46px 11px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: -1px -1px 46px 11px rgba(0, 0, 0, 0.76);
 }
 
 .hero-text {
@@ -367,9 +370,9 @@ body {
   transition-duration: 500ms;
   background-color: var(--white-color);
   color: var(--svg-color);
-  box-shadow: -1px -1px 46px 11px rgba(0,0,0,0.76);
-  -webkit-box-shadow: -1px -1px 46px 11px rgba(0,0,0,0.76);
-  -moz-box-shadow: -1px -1px 46px 11px rgba(0,0,0,0.76);
+  box-shadow: -1px -1px 46px 11px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: -1px -1px 46px 11px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: -1px -1px 46px 11px rgba(0, 0, 0, 0.76);
 }
 
 /* /hero-section */
@@ -934,6 +937,15 @@ body {
     font-weight: 700;
     line-height: 1.52;
   }
+  .about-button-masters:hover {
+    transition-duration: 500ms;
+    background-color: var(--white-color);
+    color: var(--svg-color);
+    box-shadow: -1px -1px 46px 11px rgba(0, 0, 0, 0.76);
+    -webkit-box-shadow: -1px -1px 46px 11px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: -1px -1px 46px 11px rgba(0, 0, 0, 0.76);
+  }
+
   .about-button-inst {
     padding: 10px 40px;
     background-color: transparent;
@@ -946,6 +958,12 @@ body {
     line-height: 1.5; /* 21px */
     letter-spacing: 1.4px;
     text-transform: uppercase;
+  }
+  .about-button-inst:hover{
+    transition-duration: 500ms;
+    box-shadow: -1px -1px 46px 11px rgba(0, 0, 0, 0.76);
+    -webkit-box-shadow: -1px -1px 46px 11px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: -1px -1px 46px 11px rgba(0, 0, 0, 0.76);
   }
   /* testimonials - section  */
   .swiper {
