@@ -56,16 +56,21 @@ body {
 }
 
 .logo-svg {
-  animation: rotate 10s linear infinite
+  animation: rotate 10s linear infinite;
 }
+
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
+/* .logo-svg:hover {
+  animation-play-state: paused;
+} */
 
 /* ---------------/general rules--------------- */
 
@@ -354,12 +359,17 @@ body {
   color: var(--white-color);
   padding: 9px 26px;
   border-radius: 5px;
+  transform: var(--animation-time-transition);
 }
 
 .hero-secondary-button:hover,
 .hero-secondary-button:focus {
+  transition-duration: 500ms;
   background-color: var(--white-color);
   color: var(--svg-color);
+  box-shadow: -1px -1px 46px 11px rgba(0,0,0,0.76);
+  -webkit-box-shadow: -1px -1px 46px 11px rgba(0,0,0,0.76);
+  -moz-box-shadow: -1px -1px 46px 11px rgba(0,0,0,0.76);
 }
 
 /* /hero-section */
@@ -437,12 +447,10 @@ body {
 
 /* SWIPER */
 
-
 .testimonials-list {
 }
 
 .testimonials-list-item {
-
 }
 
 .testimonials-img {
@@ -648,10 +656,10 @@ body {
   /* /hero-section */
 
   /* testimonials-section */
-  .swiper{
+  .swiper {
     width: 600px;
   }
-  .testimonials-title-text{
+  .testimonials-title-text {
     margin-right: auto;
     margin-left: auto;
     width: 600px;
@@ -676,7 +684,6 @@ body {
     width: 900px;
   }
 } */
-
 
 @media screen and (min-width: 1200px) {
   .hero-section {
@@ -940,10 +947,10 @@ body {
     letter-spacing: 1.4px;
     text-transform: uppercase;
   }
-/* testimonials - section  */
-.swiper{
-  width: 1200px;
-}
+  /* testimonials - section  */
+  .swiper {
+    width: 1200px;
+  }
 
   /* our price section  */
   .our-price-ul {
