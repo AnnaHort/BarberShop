@@ -322,7 +322,7 @@ body {
   letter-spacing: 0.1em;
   color: var(--white-color);
   margin-bottom: 35px;
-  transition: color var(--animation-time-transition);
+ transition-duration: 500ms;
 }
 
 .hero-button:hover,
@@ -362,7 +362,7 @@ body {
   color: var(--white-color);
   padding: 9px 26px;
   border-radius: 5px;
-  transform: var(--animation-time-transition);
+  transition-duration: 500ms;
 }
 
 .hero-secondary-button:hover,
