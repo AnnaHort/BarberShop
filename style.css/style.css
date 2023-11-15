@@ -615,7 +615,11 @@ body {
 
   .header-list-link:hover,
   .header-list-link:focus {
-    color: var(--svg-color);    
+    color: var(--svg-color);   
+  }
+
+  .header-links-span {
+    display: none;
   }
 
   .header-adress-list {
@@ -713,6 +717,10 @@ body {
 
   .header-list-link {
     font-size: 15px;
+  }
+
+  .header-links-span {
+    display: inline-block;
   }
 
   .header-adress {
