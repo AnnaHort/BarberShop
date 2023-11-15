@@ -610,12 +610,12 @@ body {
     font-size: 18px;
     line-height: 1.3;
     color: var(--text-color);
-    transition: color var(--svg-color);
+    transition: var(--animation-time-transition);
   }
 
   .header-list-link:hover,
   .header-list-link:focus {
-    color: var(--svg-color);
+    color: var(--svg-color);    
   }
 
   .header-adress-list {
