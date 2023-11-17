@@ -989,7 +989,7 @@ body {
   .google-map-item:last-child {
     margin-bottom: 0;
   }
-  .logo-svg {
+  .logo-google-map {
     padding: 16px;
     background-color: var(--svg-color);
     border-radius: 50%;
