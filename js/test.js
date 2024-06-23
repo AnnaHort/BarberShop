@@ -1,18 +1,28 @@
-function replace(s) {
-  const str = s.split("");
-
-  const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
-
-  for (let i = 0; i < str.length; i++) {
-    if (vowels.includes(str[i])) {
-      str[i] = "!";
+function arrayPlusArray(arr) {
+  console.log(arr);
+  let goodArr = [];
+  for (let i = 0; i <= arr.length; i++) {
+    if (arr[i] === "good") {
+      goodArr.push(arr[i]);
     }
+    console.log(goodArr);
   }
-  return str.join("");
+  if (goodArr.length === 1) {
+    console.log("Publish");
+  } else if (goodArr.length > 1) {
+    console.log("I smell a series!");
+  } else console.log("Fail!");
 }
-
-replace("sssssoss");
-// replace("Hi!") === "H!!";
-// replace("!Hi! Hi!") === "!H!! H!!";
-// replace("aeiou") === "!!!!!";
-// replace("ABCDE") === "!BCD!";
+arrayPlusArray([
+  "good",
+  "bad",
+  "bad",
+  "bad",
+  "bad",
+  "bad",
+  "bad",
+  "bad",
+  "good",
+  "bad",
+  "bad",
+]);
