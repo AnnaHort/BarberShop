@@ -1,28 +1,13 @@
-function arrayPlusArray(arr) {
-  console.log(arr);
-  let goodArr = [];
-  for (let i = 0; i <= arr.length; i++) {
-    if (arr[i] === "good") {
-      goodArr.push(arr[i]);
+function noSpace(x) {
+  console.log(x);
+  let y = 0;
+  for (let i = 0; i < x.length; i++) {
+    console.log(x[i]);
+    if (x[i].length > 0) {
+      y += x[i];
     }
-    console.log(goodArr);
   }
-  if (goodArr.length === 1) {
-    console.log("Publish");
-  } else if (goodArr.length > 1) {
-    console.log("I smell a series!");
-  } else console.log("Fail!");
+  console.log(y);
 }
-arrayPlusArray([
-  "good",
-  "bad",
-  "bad",
-  "bad",
-  "bad",
-  "bad",
-  "bad",
-  "bad",
-  "good",
-  "bad",
-  "bad",
-]);
+
+noSpace("8 j 8   mBliB8g  imjB8B8  jl  B");
